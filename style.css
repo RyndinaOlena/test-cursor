@@ -8,6 +8,15 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    /* Optional: adds some space below the title */
+    color: #333;
+    /* Optional: sets a color for the title */
+    font-weight: 300;
+}
+
 .calculator {
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -16,7 +25,7 @@ body {
 }
 
 #display {
-    width: calc(100% - 20px);
+    width: calc(100% - 10px);
     padding: 20px 10px;
     font-size: 2em;
     text-align: right;
@@ -24,6 +33,7 @@ body {
     background-color: #333;
     color: white;
     box-sizing: border-box;
+
 }
 
 .buttons {
